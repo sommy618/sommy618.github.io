@@ -1,0 +1,26 @@
+#navbar {
+    background-color: yellow;
+    height: 100px;
+}
+
+#side {
+    background-color: orange;
+    min-height: 400px;
+    width:200px;
+    float: right;
+}
+
+#content {
+    min-height: 400px;
+    background-color: blue;
+}
+
+#footer {
+    height: 100px;
+    background-color: yellow;
+}
+
+@media screen and (max-width: 480px) {
+    #side {width: auto; float:none; min-height: 100px;}
+    #content {width: auto; min-height: 200px;
+}
